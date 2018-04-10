@@ -1,0 +1,51 @@
+	@charset "utf-8";
+/* CSS Document */
+
+/*Special Rules for Desktops*/
+
+@media (min-width: 992px) {
+.container {
+	width: 1024px;
+	}
+}
+
+
+/*Main Document*/
+
+html, body {
+	height: 100%;
+
+}
+
+body {
+  	margin: 0;
+  	font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#wrap  {
+  padding-top: 10em;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 10px auto -60px; 
+
+}
+
+  .title {
+    margin-left: 2em;
+    }
+
+
+.comb {
+  margin: 5em 5em;
+  background: gray;
+}
+
+
+
+
+
+
